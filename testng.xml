@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DefaultSuite" verbose="1" >
+    <test name="Payments" >
+        <classes>
+            <class name="com.skywind.qa.test.SpinTest"/>
+        </classes>
+    </test>
+</suite>
+

@@ -1,2 +1,3 @@
-BaseUrl.class
-sw_tc.class
+com\skywind\qa\test\SpinTest.class
+com\skywind\qa\core\dto\SpinDTO.class
+com\skywind\qa\test\BaseTest.class

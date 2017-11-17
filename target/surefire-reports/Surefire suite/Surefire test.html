@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 17 17:41:07 EET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8574 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme1 x5', combinations='8,23,40,44,46', totalWin=800}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme1 x4', combinations='8,13,31,42,69', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme1 x3', combinations='38,37,32,50,51', totalWin=50}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme2 x5', combinations='55,20,22,25,12', totalWin=800}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme2 x4', combinations='29,20,20,8,29', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme2 x3', combinations='56,22,47,63,19', totalWin=35}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme3 x5', combinations='47,17,6,40,41', totalWin=800}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme3 x4', combinations='34,14,6,40,56', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme3 x3', combinations='15,17,36,26,27', totalWin=30}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme4 x5', combinations='44,49,43,24,19', totalWin=300}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme4 x4', combinations='18,18,18,6,59', totalWin=50}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme4 x3', combinations='19,16,45,18,68', totalWin=20}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme5 x5', combinations='46,6,8,42,60', totalWin=300}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme5 x4', combinations='58,6,32,46,41', totalWin=35}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Theme5 x3', combinations='46,45,7,50,16', totalWin=15}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='A x5', combinations='46,46,5,11,9', totalWin=200}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='A x4', combinations='16,44,12,10,17', totalWin=30}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='A x3', combinations='7,44,36,43,66', totalWin=10}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='K x5', combinations='32,40,8,42,6', totalWin=200}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='K x4', combinations='38,5,34,39,0', totalWin=20}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='K x3', combinations='0,17,35,31,51', totalWin=10}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Q x5', combinations='57,7,17,29,65', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Q x4', combinations='37,32,15,35,3', totalWin=15}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='Q x3', combinations='9,32,15,9,34', totalWin=10}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='J x5', combinations='4,26,40,12,53', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='J x4', combinations='2,12,32,12,46', totalWin=15}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='J x3', combinations='21,12,3,26,18', totalWin=10}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='10 x5', combinations='2,36,16,22,56', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='10 x4', combinations='43,12,15,39,9', totalWin=15}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='10 x3', combinations='42,27,15,19,23', totalWin=5}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='9 x5', combinations='31,23,19,2,33', totalWin=100}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='9 x4', combinations='40,36,49,6,51', totalWin=10}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+<tr>
+<td title='com.skywind.qa.test.SpinTest.testSpin()'><b>testSpin</b><br>Test class: com.skywind.qa.test.SpinTest<br>Parameters: Spin{description='9 x3', combinations='39,36,17,16,11', totalWin=5}</td>
+<td></td>
+<td>0</td>
+<td>com.skywind.qa.test.SpinTest@313b2ea6</td></tr>
+</table><p>
+</body>
+</html>

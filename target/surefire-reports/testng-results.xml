@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8574" started-at="2017-11-17T15:41:07Z" finished-at="2017-11-17T15:41:16Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="8574" started-at="2017-11-17T15:41:07Z" finished-at="2017-11-17T15:41:16Z">
+      <class name="com.skywind.qa.test.SpinTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="setUp" is-config="true" duration-ms="2730" started-at="2017-11-17T17:41:07Z" finished-at="2017-11-17T17:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="320" started-at="2017-11-17T17:41:10Z" data-provider="combinations" finished-at="2017-11-17T17:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme1 x5', combinations='8,23,40,44,46', totalWin=800}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="197" started-at="2017-11-17T17:41:10Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme1 x4', combinations='8,13,31,42,69', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme1 x3', combinations='38,37,32,50,51', totalWin=50}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme2 x5', combinations='55,20,22,25,12', totalWin=800}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="169" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme2 x4', combinations='29,20,20,8,29', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="146" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme2 x3', combinations='56,22,47,63,19', totalWin=35}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="164" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme3 x5', combinations='47,17,6,40,41', totalWin=800}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="208" started-at="2017-11-17T17:41:11Z" data-provider="combinations" finished-at="2017-11-17T17:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme3 x4', combinations='34,14,6,40,56', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="182" started-at="2017-11-17T17:41:12Z" data-provider="combinations" finished-at="2017-11-17T17:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme3 x3', combinations='15,17,36,26,27', totalWin=30}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="225" started-at="2017-11-17T17:41:12Z" data-provider="combinations" finished-at="2017-11-17T17:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme4 x5', combinations='44,49,43,24,19', totalWin=300}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="240" started-at="2017-11-17T17:41:12Z" data-provider="combinations" finished-at="2017-11-17T17:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme4 x4', combinations='18,18,18,6,59', totalWin=50}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-17T17:41:12Z" data-provider="combinations" finished-at="2017-11-17T17:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme4 x3', combinations='19,16,45,18,68', totalWin=20}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="151" started-at="2017-11-17T17:41:12Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme5 x5', combinations='46,6,8,42,60', totalWin=300}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="180" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme5 x4', combinations='58,6,32,46,41', totalWin=35}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="208" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Theme5 x3', combinations='46,45,7,50,16', totalWin=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="189" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='A x5', combinations='46,46,5,11,9', totalWin=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="161" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='A x4', combinations='16,44,12,10,17', totalWin=30}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='A x3', combinations='7,44,36,43,66', totalWin=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-17T17:41:13Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='K x5', combinations='32,40,8,42,6', totalWin=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='K x4', combinations='38,5,34,39,0', totalWin=20}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="167" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='K x3', combinations='0,17,35,31,51', totalWin=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Q x5', combinations='57,7,17,29,65', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="156" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Q x4', combinations='37,32,15,35,3', totalWin=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="231" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='Q x3', combinations='9,32,15,9,34', totalWin=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-17T17:41:14Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='J x5', combinations='4,26,40,12,53', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="151" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='J x4', combinations='2,12,32,12,46', totalWin=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="156" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='J x3', combinations='21,12,3,26,18', totalWin=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="146" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='10 x5', combinations='2,36,16,22,56', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='10 x4', combinations='43,12,15,39,9', totalWin=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="180" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='10 x3', combinations='42,27,15,19,23', totalWin=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="149" started-at="2017-11-17T17:41:15Z" data-provider="combinations" finished-at="2017-11-17T17:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='9 x5', combinations='31,23,19,2,33', totalWin=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="148" started-at="2017-11-17T17:41:16Z" data-provider="combinations" finished-at="2017-11-17T17:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='9 x4', combinations='40,36,49,6,51', totalWin=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-17T17:41:16Z" data-provider="combinations" finished-at="2017-11-17T17:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spin{description='9 x3', combinations='39,36,17,16,11', totalWin=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpin -->
+      </class> <!-- com.skywind.qa.test.SpinTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
