@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.skywind.qa.test.SpinTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSpin" invocation-numbers="0 1 2 3 4 6 12 14 15 16 17 18 19 20 22 24 26 54"/>
+        </methods>
+      </class> <!-- com.skywind.qa.test.SpinTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
