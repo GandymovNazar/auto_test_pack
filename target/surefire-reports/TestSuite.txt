@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 79, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 17.204 sec <<< FAILURE! - in TestSuite
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.272 sec  <<< FAILURE!
+Tests run: 79, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 18.127 sec <<< FAILURE! - in TestSuite
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.334 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <5000>
@@ -39,7 +39,7 @@ Expected: <5000>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.245 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.252 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -69,7 +69,7 @@ Expected: <0>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.235 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.125 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <250>
@@ -99,7 +99,7 @@ Expected: <250>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.273 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.187 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -129,7 +129,7 @@ Expected: <0>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.197 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.133 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <100>
@@ -159,7 +159,7 @@ Expected: <100>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.18 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.156 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <300>
@@ -189,7 +189,7 @@ Expected: <300>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.132 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.177 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <200>
@@ -218,7 +218,7 @@ Expected: <200>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.178 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.123 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <120>
@@ -247,7 +247,7 @@ Expected: <120>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.176 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.151 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -276,7 +276,7 @@ Expected: <0>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.183 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.163 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <60>
@@ -305,7 +305,7 @@ Expected: <60>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.233 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.147 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -334,7 +334,7 @@ Expected: <0>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.236 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.257 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <150>
@@ -363,7 +363,7 @@ Expected: <150>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.231 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.234 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -392,7 +392,7 @@ Expected: <0>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.157 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.251 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <80>
@@ -421,7 +421,7 @@ Expected: <80>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.24 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.208 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <30>
@@ -450,7 +450,7 @@ Expected: <30>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.155 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.237 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <100>
@@ -479,39 +479,11 @@ Expected: <100>
 	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.161 sec  <<< FAILURE!
+testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.202 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <45>
   Actual: 0
-
-	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
-	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
-	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
-	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
-
-testSpin(com.skywind.qa.test.SpinTest)  Time elapsed: 0.155 sec  <<< FAILURE!
-java.lang.AssertionError: 1 expectation failed.
-JSON path result.totalWin doesn't match.
-Expected: <2>
-  Actual: 4
 
 	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

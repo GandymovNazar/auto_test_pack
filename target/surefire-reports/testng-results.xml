@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="18" total="79" passed="61">
+<testng-results skipped="0" failed="17" total="79" passed="62">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="15122" started-at="2017-11-20T16:15:20Z" finished-at="2017-11-20T16:15:35Z">
+  <suite name="Surefire suite" duration-ms="15770" started-at="2017-11-20T17:10:27Z" finished-at="2017-11-20T17:10:42Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="15122" started-at="2017-11-20T16:15:20Z" finished-at="2017-11-20T16:15:35Z">
+    <test name="Surefire test" duration-ms="15770" started-at="2017-11-20T17:10:27Z" finished-at="2017-11-20T17:10:42Z">
       <class name="com.skywind.qa.test.SpinTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="setUp" is-config="true" duration-ms="1865" started-at="2017-11-20T18:15:20Z" finished-at="2017-11-20T18:15:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="setUp" is-config="true" duration-ms="2381" started-at="2017-11-20T19:10:27Z" finished-at="2017-11-20T19:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="269" started-at="2017-11-20T18:15:22Z" data-provider="combinations" finished-at="2017-11-20T18:15:22Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="328" started-at="2017-11-20T19:10:29Z" data-provider="combinations" finished-at="2017-11-20T19:10:29Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@ Expected: <5000>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="220" started-at="2017-11-20T18:15:22Z" data-provider="combinations" finished-at="2017-11-20T18:15:22Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="179" started-at="2017-11-20T19:10:29Z" data-provider="combinations" finished-at="2017-11-20T19:10:29Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@ Expected: <0>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="227" started-at="2017-11-20T18:15:22Z" data-provider="combinations" finished-at="2017-11-20T18:15:23Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="173" started-at="2017-11-20T19:10:29Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -255,7 +255,7 @@ Expected: <250>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="251" started-at="2017-11-20T18:15:23Z" data-provider="combinations" finished-at="2017-11-20T18:15:23Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="165" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@ Expected: <0>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="237" started-at="2017-11-20T18:15:23Z" data-provider="combinations" finished-at="2017-11-20T18:15:23Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="154" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -413,7 +413,7 @@ Expected: <100>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="157" started-at="2017-11-20T18:15:23Z" data-provider="combinations" finished-at="2017-11-20T18:15:23Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="185" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -424,7 +424,7 @@ Expected: <100>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="156" started-at="2017-11-20T18:15:23Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="159" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -503,7 +503,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="149" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -514,7 +514,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="149" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="146" started-at="2017-11-20T19:10:30Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -525,7 +525,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="157" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="187" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -536,7 +536,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="251" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -547,7 +547,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="173" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -558,7 +558,7 @@ Expected: <300>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="140" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:24Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="171" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -636,7 +636,7 @@ Expected: <200>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="148" started-at="2017-11-20T18:15:24Z" data-provider="combinations" finished-at="2017-11-20T18:15:25Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -647,7 +647,7 @@ Expected: <200>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="168" started-at="2017-11-20T18:15:25Z" data-provider="combinations" finished-at="2017-11-20T18:15:25Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="172" started-at="2017-11-20T19:10:31Z" data-provider="combinations" finished-at="2017-11-20T19:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -725,7 +725,7 @@ Expected: <120>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="181" started-at="2017-11-20T18:15:25Z" data-provider="combinations" finished-at="2017-11-20T18:15:25Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-20T19:10:32Z" data-provider="combinations" finished-at="2017-11-20T19:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -803,7 +803,7 @@ Expected: <0>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T18:15:25Z" data-provider="combinations" finished-at="2017-11-20T18:15:25Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="149" started-at="2017-11-20T19:10:32Z" data-provider="combinations" finished-at="2017-11-20T19:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -880,7 +880,7 @@ Expected: <60>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="186" started-at="2017-11-20T18:15:25Z" data-provider="combinations" finished-at="2017-11-20T18:15:25Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T19:10:32Z" data-provider="combinations" finished-at="2017-11-20T19:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -957,7 +957,7 @@ Expected: <0>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="284" started-at="2017-11-20T18:15:25Z" data-provider="combinations" finished-at="2017-11-20T18:15:26Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="216" started-at="2017-11-20T19:10:32Z" data-provider="combinations" finished-at="2017-11-20T19:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -1034,7 +1034,7 @@ Expected: <150>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="240" started-at="2017-11-20T18:15:26Z" data-provider="combinations" finished-at="2017-11-20T18:15:26Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="253" started-at="2017-11-20T19:10:32Z" data-provider="combinations" finished-at="2017-11-20T19:10:33Z">
           <params>
             <param index="0">
               <value>
@@ -1111,7 +1111,7 @@ Expected: <0>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="144" started-at="2017-11-20T18:15:26Z" data-provider="combinations" finished-at="2017-11-20T18:15:26Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="192" started-at="2017-11-20T19:10:33Z" data-provider="combinations" finished-at="2017-11-20T19:10:33Z">
           <params>
             <param index="0">
               <value>
@@ -1188,7 +1188,7 @@ Expected: <80>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-20T18:15:26Z" data-provider="combinations" finished-at="2017-11-20T18:15:26Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="211" started-at="2017-11-20T19:10:33Z" data-provider="combinations" finished-at="2017-11-20T19:10:33Z">
           <params>
             <param index="0">
               <value>
@@ -1199,7 +1199,7 @@ Expected: <80>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="231" started-at="2017-11-20T18:15:26Z" data-provider="combinations" finished-at="2017-11-20T18:15:26Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="239" started-at="2017-11-20T19:10:33Z" data-provider="combinations" finished-at="2017-11-20T19:10:33Z">
           <params>
             <param index="0">
               <value>
@@ -1276,7 +1276,7 @@ Expected: <30>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="156" started-at="2017-11-20T18:15:26Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="141" started-at="2017-11-20T19:10:33Z" data-provider="combinations" finished-at="2017-11-20T19:10:33Z">
           <params>
             <param index="0">
               <value>
@@ -1287,7 +1287,7 @@ Expected: <30>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="173" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="171" started-at="2017-11-20T19:10:33Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1364,7 +1364,7 @@ Expected: <100>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="137" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="214" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1375,7 +1375,7 @@ Expected: <100>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="190" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1451,7 +1451,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="183" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="192" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1462,7 +1462,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="184" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1473,7 +1473,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="147" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:27Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="147" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -1484,7 +1484,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-20T18:15:27Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="144" started-at="2017-11-20T19:10:34Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1495,7 +1495,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="133" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1506,7 +1506,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="136" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1517,7 +1517,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="154" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="186" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1528,7 +1528,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="179" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="180" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1539,7 +1539,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="160" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:28Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="184" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:35Z">
           <params>
             <param index="0">
               <value>
@@ -1550,7 +1550,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="187" started-at="2017-11-20T18:15:28Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="143" started-at="2017-11-20T19:10:35Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1561,7 +1561,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="176" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1572,7 +1572,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="181" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="178" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1583,7 +1583,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="164" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="216" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1594,7 +1594,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="140" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="141" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1605,7 +1605,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="136" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:29Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -1616,7 +1616,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="159" started-at="2017-11-20T18:15:29Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="154" started-at="2017-11-20T19:10:36Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1627,7 +1627,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="150" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1638,7 +1638,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="182" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="141" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1649,7 +1649,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="155" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1660,7 +1660,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="165" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="164" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1671,7 +1671,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="143" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:30Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="179" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -1682,7 +1682,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-20T18:15:30Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="156" started-at="2017-11-20T19:10:37Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1693,7 +1693,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="180" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="139" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1704,7 +1704,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="137" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="139" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1715,7 +1715,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="144" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1726,7 +1726,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="174" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="139" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1737,7 +1737,7 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="170" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -1748,83 +1748,18 @@ Expected: <45>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="FAIL" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:31Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="143" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Spin{description='10x2', combinations='4,30,12,20,3', totalWin=2}]]>
+                <![CDATA[Spin{description='10x2', combinations='4,30,12,20,3', totalWin=4}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-JSON path result.totalWin doesn't match.
-Expected: <2>
-  Actual: 4
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path result.totalWin doesn't match.
-Expected: <2>
-  Actual: 4
-
-	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
-	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
-	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
-	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
-	at sun.reflect.GeneratedMethodAccessor166.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="136" started-at="2017-11-20T18:15:31Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="146" started-at="2017-11-20T19:10:38Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1835,7 +1770,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="147" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="141" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1846,7 +1781,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="140" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="217" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1857,7 +1792,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="143" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="204" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1868,7 +1803,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="174" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1879,7 +1814,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="200" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:32Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:39Z">
           <params>
             <param index="0">
               <value>
@@ -1890,7 +1825,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="145" started-at="2017-11-20T18:15:32Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="160" started-at="2017-11-20T19:10:39Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1901,7 +1836,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="129" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="178" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1912,7 +1847,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="138" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="138" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1923,7 +1858,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="148" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="139" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1934,7 +1869,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="198" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="131" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1945,7 +1880,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="151" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="139" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1956,7 +1891,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="138" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:33Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="162" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -1967,7 +1902,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="157" started-at="2017-11-20T18:15:33Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="163" started-at="2017-11-20T19:10:40Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -1978,7 +1913,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="166" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="153" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -1989,7 +1924,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="151" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="142" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -2000,7 +1935,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="149" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="128" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -2011,7 +1946,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="126" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="137" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -2022,7 +1957,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="203" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:34Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="231" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -2033,7 +1968,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="126" started-at="2017-11-20T18:15:34Z" data-provider="combinations" finished-at="2017-11-20T18:15:35Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="158" started-at="2017-11-20T19:10:41Z" data-provider="combinations" finished-at="2017-11-20T19:10:42Z">
           <params>
             <param index="0">
               <value>
@@ -2044,7 +1979,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="151" started-at="2017-11-20T18:15:35Z" data-provider="combinations" finished-at="2017-11-20T18:15:35Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="157" started-at="2017-11-20T19:10:42Z" data-provider="combinations" finished-at="2017-11-20T19:10:42Z">
           <params>
             <param index="0">
               <value>
@@ -2055,7 +1990,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="144" started-at="2017-11-20T18:15:35Z" data-provider="combinations" finished-at="2017-11-20T18:15:35Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="133" started-at="2017-11-20T19:10:42Z" data-provider="combinations" finished-at="2017-11-20T19:10:42Z">
           <params>
             <param index="0">
               <value>
@@ -2066,7 +2001,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="242" started-at="2017-11-20T18:15:35Z" data-provider="combinations" finished-at="2017-11-20T18:15:35Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="230" started-at="2017-11-20T19:10:42Z" data-provider="combinations" finished-at="2017-11-20T19:10:42Z">
           <params>
             <param index="0">
               <value>
@@ -2077,7 +2012,7 @@ Expected: <2>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSpin -->
-        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="152" started-at="2017-11-20T18:15:35Z" data-provider="combinations" finished-at="2017-11-20T18:15:35Z">
+        <test-method status="PASS" signature="testSpin(com.skywind.qa.core.dto.SpinDTO)[pri:0, instance:com.skywind.qa.test.SpinTest@313b2ea6]" name="testSpin" duration-ms="152" started-at="2017-11-20T19:10:42Z" data-provider="combinations" finished-at="2017-11-20T19:10:42Z">
           <params>
             <param index="0">
               <value>

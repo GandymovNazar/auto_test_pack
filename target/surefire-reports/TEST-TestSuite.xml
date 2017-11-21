@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.272" tests="79" errors="0" skipped="0" failures="18">
+<testsuite name="TestSuite" time="0.334" tests="79" errors="0" skipped="0" failures="17">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
@@ -66,7 +66,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.272">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.334">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;5000&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <5000>
@@ -147,7 +147,7 @@ Body:
     }
 }
 Spin{description='Theme1x5', combinations='4,24,6,7,20', totalWin=5000}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -163,7 +163,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -186,17 +186,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 904
-ETag: W/"388-NyZjfn+eH5loOmkQklpO1sSFk5c"
-Date: Mon, 20 Nov 2017 16:15:22 GMT
+ETag: W/"388-WcCCRi4k0axCuxbpJ0pFUxb/jZs"
+Date: Mon, 20 Nov 2017 17:10:29 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 19745,
+        "amount": 24024,
         "real": {
-            "amount": 19745
+            "amount": 24024
         },
         "bonus": {
             "amount": 0
@@ -270,7 +270,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.245">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.252">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;0&gt;&#10;  Actual: 100&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -301,7 +301,7 @@ Expected: <0>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='SecondTheme1x5', combinations='3,23,5,6,19', totalWin=0}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -317,7 +317,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -340,17 +340,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 979
-ETag: W/"3d3-fQiq6Vle0QeFkSPt63eQWiEwz8I"
-Date: Mon, 20 Nov 2017 16:15:22 GMT
+ETag: W/"3d3-9Trp44LWSM+usihvmdfzahWCPlE"
+Date: Mon, 20 Nov 2017 17:10:29 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 19845,
+        "amount": 24124,
         "real": {
-            "amount": 19845
+            "amount": 24124
         },
         "bonus": {
             "amount": 0
@@ -433,7 +433,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.235">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.125">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;250&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <250>
@@ -464,7 +464,7 @@ Expected: <250>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme1x4', combinations='20,24,6,7,7', totalWin=250}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -480,7 +480,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -503,17 +503,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 901
-ETag: W/"385-8QyN1fZ8rZMNEG0Q2fHmOqikC8I"
-Date: Mon, 20 Nov 2017 16:15:23 GMT
+ETag: W/"385-+5pu7Z+DaPLH16eHIQg4kqHXyQU"
+Date: Mon, 20 Nov 2017 17:10:30 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 19845,
+        "amount": 24124,
         "real": {
-            "amount": 19845
+            "amount": 24124
         },
         "bonus": {
             "amount": 0
@@ -587,7 +587,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.273">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.187">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;0&gt;&#10;  Actual: 100&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -618,7 +618,7 @@ Expected: <0>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='SecondTheme1x4', combinations='19,23,5,6,7', totalWin=0}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -634,7 +634,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -657,17 +657,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 981
-ETag: W/"3d5-Pb1n5IlyVHDUc5BwXifUPEDsDIk"
-Date: Mon, 20 Nov 2017 16:15:23 GMT
+ETag: W/"3d5-8N67DGfxkECMwAblm5ATh30q2eo"
+Date: Mon, 20 Nov 2017 17:10:30 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 19945,
+        "amount": 24224,
         "real": {
-            "amount": 19945
+            "amount": 24224
         },
         "bonus": {
             "amount": 0
@@ -750,7 +750,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.197">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.133">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;100&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <100>
@@ -781,7 +781,7 @@ Expected: <100>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme1x3', combinations='19,23,6,5,15', totalWin=100}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -797,7 +797,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -820,17 +820,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 903
-ETag: W/"387-eJNYJCpRXmdBOD8YpHXoHsaAas4"
-Date: Mon, 20 Nov 2017 16:15:23 GMT
+ETag: W/"387-VqSWYQjNnp8m6YPolJ8OBXAxabg"
+Date: Mon, 20 Nov 2017 17:10:30 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 19945,
+        "amount": 24224,
         "real": {
-            "amount": 19945
+            "amount": 24224
         },
         "bonus": {
             "amount": 0
@@ -904,8 +904,8 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.151"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.18">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.196"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.156">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;300&gt;&#10;  Actual: 75&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <300>
@@ -936,7 +936,7 @@ Expected: <300>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme2x5', combinations='5,3,11,8,21', totalWin=300}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -952,7 +952,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -975,17 +975,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 978
-ETag: W/"3d2-xFyDc9qCxgg2IMPnXCEtc8/oyD0"
-Date: Mon, 20 Nov 2017 16:15:23 GMT
+ETag: W/"3d2-BqrLNbQl4awcFARun5AVMgBTbUA"
+Date: Mon, 20 Nov 2017 17:10:30 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20020,
+        "amount": 24299,
         "real": {
-            "amount": 20020
+            "amount": 24299
         },
         "bonus": {
             "amount": 0
@@ -1068,12 +1068,12 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.152"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.18"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.125"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.133"/>
   <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.149"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.168"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.132">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.228"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.202"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.14"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.177">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;200&gt;&#10;  Actual: 60&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <200>
@@ -1103,7 +1103,7 @@ Expected: <200>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme3x5', combinations='15,28,21,29,18', totalWin=200}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1119,7 +1119,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1142,17 +1142,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 980
-ETag: W/"3d4-tt32w9q3N0lvrJDFkgPPTrHOtxg"
-Date: Mon, 20 Nov 2017 16:15:24 GMT
+ETag: W/"3d4-KPAME0k+6on8/rAqpB7n8kDiZBQ"
+Date: Mon, 20 Nov 2017 17:10:31 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20305,
+        "amount": 24584,
         "real": {
-            "amount": 20305
+            "amount": 24584
         },
         "bonus": {
             "amount": 0
@@ -1235,8 +1235,8 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.15"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.178">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.184"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.123">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;120&gt;&#10;  Actual: 60&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <120>
@@ -1266,7 +1266,7 @@ Expected: <120>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme3x4', combinations='13,22,21,28,27', totalWin=120}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1282,7 +1282,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1305,17 +1305,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 980
-ETag: W/"3d4-9MzMpxKRcVVXXlc9G0VkNRavHvQ"
-Date: Mon, 20 Nov 2017 16:15:25 GMT
+ETag: W/"3d4-bG7jYZt+b+V3qbOpTudZKgUofKQ"
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20365,
+        "amount": 24644,
         "real": {
-            "amount": 20365
+            "amount": 24644
         },
         "bonus": {
             "amount": 0
@@ -1398,7 +1398,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.176">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.151">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;0&gt;&#10;  Actual: 20&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -1428,7 +1428,7 @@ Expected: <0>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='SecondTheme3x4', combinations='12,21,20,27,27', totalWin=0}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1444,7 +1444,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1467,17 +1467,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 981
-ETag: W/"3d5-QO1wqGEz3UJpFTSzKZZrk+LhaBo"
-Date: Mon, 20 Nov 2017 16:15:25 GMT
+ETag: W/"3d5-MM0fofnTqT5glMQsL16P1bpLIlk"
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20385,
+        "amount": 24664,
         "real": {
-            "amount": 20385
+            "amount": 24664
         },
         "bonus": {
             "amount": 0
@@ -1560,7 +1560,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.183">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.163">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;60&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <60>
@@ -1590,7 +1590,7 @@ Expected: <60>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme3x3', combinations='26,23,4,6,25', totalWin=60}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1606,7 +1606,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1629,17 +1629,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 904
-ETag: W/"388-WbxE7JpK/osprR/Z3bm0g519E4w"
-Date: Mon, 20 Nov 2017 16:15:25 GMT
+ETag: W/"388-LaqawHHmyfBr/64Csgof+Zc84jk"
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20385,
+        "amount": 24664,
         "real": {
-            "amount": 20385
+            "amount": 24664
         },
         "bonus": {
             "amount": 0
@@ -1713,7 +1713,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.233">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.147">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;0&gt;&#10;  Actual: 60&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -1743,7 +1743,7 @@ Expected: <0>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='SecondTheme3x3', combinations='25,22,3,6,25', totalWin=0}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1759,7 +1759,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1782,17 +1782,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 980
-ETag: W/"3d4-NghLOAmQZmjfL5re5jNx+MxypTc"
-Date: Mon, 20 Nov 2017 16:15:25 GMT
+ETag: W/"3d4-XPoNkuXowUFiWFQ/HUOF24y0YWo"
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20445,
+        "amount": 24724,
         "real": {
-            "amount": 20445
+            "amount": 24724
         },
         "bonus": {
             "amount": 0
@@ -1875,7 +1875,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.236">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.257">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;150&gt;&#10;  Actual: 70&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <150>
@@ -1905,7 +1905,7 @@ Expected: <150>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme4x5', combinations='28,28,30,5,28', totalWin=150}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -1921,7 +1921,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -1943,19 +1943,19 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS
 Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Check-Sum,Cookie
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
-ETag: W/"421-kSCKWeGRwyWx8krm9mr42DLL4zI"
+ETag: W/"421-Lfdx5doHP2wcYzmbBwoXoGoS660"
 Content-Encoding: gzip
-Date: Mon, 20 Nov 2017 16:15:25 GMT
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20515,
+        "amount": 24794,
         "real": {
-            "amount": 20515
+            "amount": 24794
         },
         "bonus": {
             "amount": 0
@@ -2056,7 +2056,7 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.231">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.234">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;0&gt;&#10;  Actual: 48&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <0>
@@ -2086,7 +2086,7 @@ Expected: <0>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='SecondTheme4x5', combinations='27,27,29,4,27', totalWin=0}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -2102,7 +2102,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -2124,19 +2124,19 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS
 Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Check-Sum,Cookie
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
-ETag: W/"422-KldC840XWq4qFZB3dIYkYWzEV0E"
+ETag: W/"422-tSB34Wa2+oLF8xZPwBIdha+ZvyY"
 Content-Encoding: gzip
-Date: Mon, 20 Nov 2017 16:15:26 GMT
+Date: Mon, 20 Nov 2017 17:10:32 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20563,
+        "amount": 24842,
         "real": {
-            "amount": 20563
+            "amount": 24842
         },
         "bonus": {
             "amount": 0
@@ -2229,7 +2229,7 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.157">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.251">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;80&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <80>
@@ -2259,7 +2259,7 @@ Expected: <80>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme4x4', combinations='32,5,14,23,9', totalWin=80}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -2275,7 +2275,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -2298,17 +2298,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 905
-ETag: W/"389-5zQSRCh6wXRCC7TH1iOMdk1Cdh0"
-Date: Mon, 20 Nov 2017 16:15:26 GMT
+ETag: W/"389-Qv6WcVK1tShfF7jUU+sOYqwucD4"
+Date: Mon, 20 Nov 2017 17:10:33 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20563,
+        "amount": 24842,
         "real": {
-            "amount": 20563
+            "amount": 24842
         },
         "bonus": {
             "amount": 0
@@ -2382,8 +2382,8 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.134"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.24">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.165"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.208">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;30&gt;&#10;  Actual: 20&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <30>
@@ -2413,7 +2413,7 @@ Expected: <30>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Theme4x3', combinations='0,7,31,16,17', totalWin=30}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -2429,7 +2429,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -2451,19 +2451,19 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS
 Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Check-Sum,Cookie
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
-ETag: W/"4b7-eF1VFgllffJr/Kw2vvTMZSCEhi4"
+ETag: W/"4b7-7roEP221FcrUrrQhNoVaM/0C/NY"
 Content-Encoding: gzip
-Date: Mon, 20 Nov 2017 16:15:26 GMT
+Date: Mon, 20 Nov 2017 17:10:33 GMT
 Connection: keep-alive
 Transfer-Encoding: chunked
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20583,
+        "amount": 24862,
         "real": {
-            "amount": 20583
+            "amount": 24862
         },
         "bonus": {
             "amount": 0
@@ -2576,8 +2576,8 @@ Transfer-Encoding: chunked
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.182"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.155">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.129"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.237">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;100&gt;&#10;  Actual: 6&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <100>
@@ -2607,7 +2607,7 @@ Expected: <100>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Ax5', combinations='22,10,20,6,2', totalWin=100}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -2623,7 +2623,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -2646,17 +2646,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 976
-ETag: W/"3d0-JG6XK/wyCYXBHFe2KsmidQOVlKs"
-Date: Mon, 20 Nov 2017 16:15:27 GMT
+ETag: W/"3d0-OeC2rGHsw0huUp6EJZY4LGGV9Yg"
+Date: Mon, 20 Nov 2017 17:10:33 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20589,
+        "amount": 24868,
         "real": {
-            "amount": 20589
+            "amount": 24868
         },
         "bonus": {
             "amount": 0
@@ -2739,8 +2739,8 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.13"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.161">
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.185"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.202">
     <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;45&gt;&#10;  Actual: 0&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path result.totalWin doesn't match.
 Expected: <45>
@@ -2769,7 +2769,7 @@ Expected: <45>
 	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
 ]]></failure>
     <system-out><![CDATA[Spin{description='Ax4', combinations='7,25,32,7,27', totalWin=45}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA
 Request method:	POST
 Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
 Proxy:			<none>
@@ -2785,7 +2785,7 @@ Body:
 {
     "bet": 1,
     "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "lines": 1,
     "request": "spin",
     "positions": [
@@ -2808,17 +2808,17 @@ Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Request
 Access-Control-Max-Age: 1728000
 Content-Type: application/json; charset=utf-8
 Content-Length: 901
-ETag: W/"385-5ueONV6jb4x4xQ4Y5MGaRjjlwvE"
-Date: Mon, 20 Nov 2017 16:15:27 GMT
+ETag: W/"385-djDQ7J0pmwh1jUh5joNRjnKcj38"
+Date: Mon, 20 Nov 2017 17:10:34 GMT
 Connection: keep-alive
 
 {
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
+    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1OTA4OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk3ODI4LCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.Q64wHejtHRYuRmI8x7-L2QtNi_FmfZSH7u1zPAjhuxwJrVBJN1tIVdc0QYIdAB_p_qAafEPhmpTLbrKwAzpXMA",
     "balance": {
         "currency": "USD",
-        "amount": 20589,
+        "amount": 24868,
         "real": {
-            "amount": 20589
+            "amount": 24868
         },
         "bonus": {
             "amount": 0
@@ -2892,221 +2892,56 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.188"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.137"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.138"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.177"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.137"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.133"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.18"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.161"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.195"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.166"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.187"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.174"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.147"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.137"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.144"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.154"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.189"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.149"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.202"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.123"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.137"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.217"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.131"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.141"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.153"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.187"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.152"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.155">
-    <failure message="1 expectation failed.&#10;JSON path result.totalWin doesn&apos;t match.&#10;Expected: &lt;2&gt;&#10;  Actual: 4&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path result.totalWin doesn't match.
-Expected: <2>
-  Actual: 4
-
-	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
-	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
-	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
-	at com.skywind.qa.test.SpinTest.testSpin(SpinTest.java:82)
-]]></failure>
-    <system-out><![CDATA[Spin{description='10x2', combinations='4,30,12,20,3', totalWin=2}
-eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ
-Request method:	POST
-Request URI:	http://api.cd2.d.skywind-tech.com:4001/casino/game2
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "bet": 1,
-    "coin": 1,
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
-    "lines": 1,
-    "request": "spin",
-    "positions": [
-        4,
-        30,
-        12,
-        20,
-        3
-    ],
-    "requestId": 55
-}
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Vary: X-HTTP-Method-Override, Accept-Encoding
-Access-Control-Allow-Credentials: true
-Access-Control-Allow-Origin: *
-Access-Control-Expose-Headers: x-paging-total,x-paging-limit,x-paging-offset
-Access-Control-Allow-Methods: GET, POST, OPTIONS
-Access-Control-Allow-Headers: DNT,X-ACCESS-TOKEN,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Check-Sum,Cookie
-Access-Control-Max-Age: 1728000
-Content-Type: application/json; charset=utf-8
-Content-Length: 926
-ETag: W/"39e-qES33IeBVX9dSNE3JgWElme8EcY"
-Date: Mon, 20 Nov 2017 16:15:31 GMT
-Connection: keep-alive
-
-{
-    "gameSession": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjY1ODk0OSwiaWQiOiJnYW1lczpjb250ZXh0OjE6dW5kZWZpbmVkOnN3X2drOndlYiIsImdhbWVNb2RlIjoiZnVuIiwiaWF0IjoxNTExMTk0NTIxLCJpc3MiOiJza3l3aW5kZ3JvdXAifQ.bVR9T2pD6mcnFRWT8WGcQPRQlUdeJWl3Z5kLEXn-TqQv4HL2k5uz0YOIcnBRx-dLRxx-vV6MMQDaRMKYyHyRNQ",
-    "balance": {
-        "currency": "USD",
-        "amount": 20648,
-        "real": {
-            "amount": 20648
-        },
-        "bonus": {
-            "amount": 0
-        }
-    },
-    "result": {
-        "request": "spin",
-        "stake": {
-            "lines": 1,
-            "bet": 1,
-            "coin": 1
-        },
-        "totalBet": 25,
-        "totalWin": 4,
-        "scene": "main",
-        "multiplier": 1,
-        "state": {
-            "currentScene": "main",
-            "multiplier": 1,
-            "collapsingWin": 4,
-            "collapsingCount": 1,
-            "isReSpin": true
-        },
-        "reels": {
-            "set": "main",
-            "positions": [
-                4,
-                30,
-                12,
-                20,
-                3
-            ],
-            "view": [
-                [
-                    7,
-                    10,
-                    8,
-                    11,
-                    9
-                ],
-                [
-                    1,
-                    8,
-                    2,
-                    2,
-                    6
-                ],
-                [
-                    10,
-                    4,
-                    12,
-                    6,
-                    1
-                ]
-            ]
-        },
-        "rewards": [
-            {
-                "reward": "line",
-                "lineId": 20,
-                "payout": 2,
-                "paytable": [
-                    8,
-                    1
-                ],
-                "lineMultiplier": 1
-            },
-            {
-                "reward": "line",
-                "lineId": 24,
-                "payout": 2,
-                "paytable": [
-                    8,
-                    1
-                ],
-                "lineMultiplier": 1
-            }
-        ],
-        "events": [
-            
-        ],
-        "roundEnded": false,
-        "version": "0.2.2"
-    }
-}
-]]></system-out>
-  </testcase>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.193"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.085"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.142"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.137"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.202"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.158"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.145"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.128"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.24"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.097"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.146"/>
   <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.139"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.178"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.191"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.124"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.138"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.215"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.111"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.169"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.133"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.243"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.141"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.22"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.114"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.142"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.19"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.209"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.184"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.131"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.148"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.166"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.136"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.145"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.175"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.18"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.176"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.144"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.128"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.153"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.113"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.147"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.134"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.152"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.168"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.115"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.311"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.155"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.152"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.165"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.194"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.126"/>
   <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.132"/>
   <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.134"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.196"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.127"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.169"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.138"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.138"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.221"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.155"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.098"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.166"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.108"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.136"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.237"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.217"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.097"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.126"/>
+  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.26"/>
   <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.122"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.265"/>
-  <testcase name="testSpin" classname="com.skywind.qa.test.SpinTest" time="0.132"/>
 </testsuite>
