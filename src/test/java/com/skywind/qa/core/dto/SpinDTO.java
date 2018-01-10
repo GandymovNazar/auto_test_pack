@@ -31,9 +31,9 @@ public class SpinDTO {
         return totalWin;
     }
 
-    public void setTotalWin(int totalWin) {
-        this.totalWin = totalWin;
-    }
+    public void setTotalWin(int totalWin) {this.totalWin = totalWin; }
+
+
     @Override
     public String toString() {
         return "Spin{" +

@@ -25,6 +25,7 @@ public class SpinTest extends BaseTest {
     private static String url = "/casino/game2";
     private String gameId = System.getProperty("gameId");
 
+
     String spinPath = "src/test/resources/spin_" + gameId + ".csv";
 
     @BeforeClass
